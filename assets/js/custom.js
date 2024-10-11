@@ -33,6 +33,7 @@ $(document).ready(function () {
 
 var ps = new PerfectScrollbar('#sidebar');
 
+
 /*--------------------------------------
     chart js
 --------------------------------------*/
@@ -268,3 +269,4 @@ function initMap() {
     icon: image
   });
 }
+

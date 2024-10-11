@@ -144,4 +144,13 @@ window.chartColors = {
 	}
 	/* eslint-enable */
 
+
+	//Agregando logica para carrito de compras
+	let carrito = document.querySelector('.fa-shopping-cart');
+	carrito.addEventListener('click', ()=>{
+		
+		$('.lista-carrito').toggleClass('d-none');
+	})
+
+
 }(this));
